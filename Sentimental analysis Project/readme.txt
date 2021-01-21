@@ -21,5 +21,5 @@ SENTIMENTAL ANALYSIS OF AMAZON CUSTOMER REVIEWS
   -> Performed comparative analysis
   
 4) Deployment
-  -> Deployment folder contains deployment code for customer review sentiment analysis.   
+  -> Deployment folder contains deployment code for customer review sentiment analysis using flask app.   
  
