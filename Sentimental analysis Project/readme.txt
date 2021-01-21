@@ -9,6 +9,10 @@ SENTIMENTAL ANALYSIS OF AMAZON CUSTOMER REVIEWS
 2) Data modelling 
   -> Performed three ML algorithms(SVM, Naive Bayes and Logistic regression) on two different word representations(Bag of words and TF-IDF) using sklearn and nltk library.
   -> files: Sentmental Analysis using count vectorizer.ipynb, Sentmental Analysis using TF-IDF.ipynb
+  
+  -> Performed Artificial neural network algorithm on bag of words word representations
+  -> file: ANN.ipynb
+  
   -> Performed three DL algorithms(LSTM, GRU and Bi-Directional LSTM) on word to vec word representations(fasttext)
   -> file: LSTM/GRU/Bi-DIRECT.ipynb
   
