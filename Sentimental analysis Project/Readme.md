@@ -18,15 +18,15 @@ Understanding a customer is the most vital part for every business, as it helps 
 <b>1) Data Collection</b> 
   - Webscraped the ratings and reviews of customers from consumeraffairs.com using beautifulsoup Library. https://www.consumeraffairs.com/online/amazon.html
 
-<b>1) Data Preprocessing</b> 
+<b>2) Data Preprocessing</b> 
   - Pre-processed the web scraped data by removing unwanted statements using pandas library. 
   - Labelled reviews with 2 classes based on ratings.
   - file: Sentimental analysis (webscraping and preprocessing).py
 
-<b>2) Text Vectorization</b> 
+<b>3) Text Vectorization</b> 
 -  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
 
-<b>2) Model training</b> 
+<b>4) Model training</b> 
   - Trained three ML algorithms(SVM, Naive Bayes and Logistic regression) on 2 word representation techniques(Bag of words and TF-IDF)
   - Files: Sentmental Analysis using count vectorizer.ipynb, Sentmental Analysis using TF-IDF.ipynb.
   - Performed Artificial neural network algorithm on bag of words word representations.
@@ -35,10 +35,10 @@ Understanding a customer is the most vital part for every business, as it helps 
   - Trained three DL algorithms(LSTM, GRU and Bi-Directional LSTM) on word to vec word representation(fasttext)
   - file: LSTM/GRU/Bi-DIRECT.ipynb
   
-<b>3) Model Evaluation</b>
+<b>5) Model Evaluation</b>
   - Performed comparative analysis
   
   ![image](https://user-images.githubusercontent.com/55615788/149210462-b0fb2199-9119-44ff-8637-f5dec73e2b5e.png)
 
-<b>4) Deployment</b>
+<b>6) Deployment</b>
   - Deployed the trained model for customer review sentiment analysis using flask app. 
