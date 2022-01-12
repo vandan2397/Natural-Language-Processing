@@ -37,6 +37,7 @@ Understanding a customer is the most vital part for every business, as it helps 
   
 <b>3) Model Evaluation</b>
   - Performed comparative analysis
+  
   ![image](https://user-images.githubusercontent.com/55615788/149210462-b0fb2199-9119-44ff-8637-f5dec73e2b5e.png)
 
 <b>4) Deployment</b>
