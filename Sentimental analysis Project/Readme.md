@@ -40,7 +40,7 @@ Understanding a customer is the most vital part for every business, as it helps 
   
   ![image](https://user-images.githubusercontent.com/55615788/149210462-b0fb2199-9119-44ff-8637-f5dec73e2b5e.png)
   
-  - Analysis shows Bi-directional LSTM outperforms all other algorithms.
+  - Analysis shows Logistic regression and Bi-directional LSTM outperforms all other algorithms.
 
 <b>6) Deployment</b>
   - Deployed the trained model for customer review sentiment analysis using flask app. 
