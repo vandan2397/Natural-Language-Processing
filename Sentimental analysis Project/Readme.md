@@ -32,11 +32,10 @@ Understanding a customer is the most vital part for every business, as it helps 
   - Performed Artificial neural network algorithm on bag of words word representations.
   - file: ANN.ipynb
   
-  - Performed three DL algorithms(LSTM, GRU and Bi-Directional LSTM) on word to vec word representation(fasttext)
+  - Trained three DL algorithms(LSTM, GRU and Bi-Directional LSTM) on word to vec word representation(fasttext)
   - file: LSTM/GRU/Bi-DIRECT.ipynb
   
 <b>3) Model Evaluation</b>
-  - Model Evaluation.xlsx file contains results of all models.
   - Performed comparative analysis
   
 <b>4) Deployment</b>
