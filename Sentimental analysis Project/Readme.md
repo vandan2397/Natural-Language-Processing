@@ -27,7 +27,7 @@ Understanding a customer is the most vital part for every business, as it helps 
   - Removed Special characters (kept only numbers and alphabets)
   - Lowercased all reviews
   - Perfomed lemmatization
-  - file: 2. Pre-Processing.ipynb
+  - File: 2. Pre-Processing.ipynb
 
 <b>3) Text Vectorization</b> 
   -  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
