@@ -37,13 +37,15 @@ Understanding a customer is the most vital part for every business, as it helps 
   - Trained 2 Deep Learning algorithms(LSTM, Bi-Directional LSTM) on word to vec word representation(fasttext)
   - Files: 3. Model Training (Logistic Regression, Naive Bayes, SVM) with Bag of Words.ipynb, 4. Model Training (Logistic Regression, Naive Bayes, SVM) with TF-    IDF.ipynb, 5. Model Training (LSTM and Bi-LSTM) with Word to Vec.ipynb
   
+<b>5) Model training</b> 
+  - Performed Hyperparameter tuning on Naive bayes with N-Gram to improve performance.
   
-<b>5) Model Evaluation</b>
+<b>6) Model Evaluation</b>
   - Performed comparative analysis
   
   ![image](https://user-images.githubusercontent.com/55615788/196811712-3db18ac2-287e-4072-be64-4ba2aabfaa04.png)
   
   - Analysis shows Naive Bayes with Ngram TFIDF outperforms all other algorithms in terms of accuracy and F1 Score.
 
-<b>6) Deployment</b>
+<b>7) Deployment</b>
   - Deployed the trained model for customer review sentiment analysis using flask app. 
