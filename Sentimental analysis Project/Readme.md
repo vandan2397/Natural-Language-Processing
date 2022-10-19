@@ -1,7 +1,7 @@
 # SENTIMENTAL ANALYSIS OF AMAZON CUSTOMER REVIEWS
 
 ### Introduction
-Understanding a customer is the most vital part for every business, as it helps them to find out their needs, build relationship,  build better products and make profits. However, manual sentiment analysis of each customer is a cumbersome process.But Nowadays, many organizations are incorporating sentiment analysis using AI into their business, to get better insights and automate the process. In this end to end project, I have collected the reviews of different products by amazon customers and  leveraged natural language processing techniques to build classifiers to classify sentiment(positive or negative) of customer towards product.
+Understanding a customer is the most vital part for every business, as it helps them to find out their needs, build relationship,  build better products and make profits. However, manual sentiment analysis of each customer is a cumbersome process.But Nowadays, many organizations are incorporating sentiment analysis using AI into their business, to get better insights over what customers think of product, maintain public perception and automate the process. In this end to end project, I have collected the reviews of different products by amazon customers and  leveraged natural language processing techniques to build classifiers to classify sentiment(positive or negative) of customer towards product.
 
 ### Methods Used
 - Web scraping
