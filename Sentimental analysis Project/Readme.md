@@ -5,6 +5,7 @@ Understanding a customer is the most vital part for every business, as it helps 
 
 ### Methods Used
 - Web scraping
+- Text Pre-Processing
 - Text Classification
 - Machine Learning
 - Deep Learning
@@ -12,35 +13,37 @@ Understanding a customer is the most vital part for every business, as it helps 
 ### Tools and Libraries
 - Python
 - Pandas, Numpy, beautifulsoup, nltk, Sklearn, and Keras
-- Jupyter IDE
+- Google Colab
 
 ### Project Flow
-<b>1) Data Collection</b> 
-  - Webscraped the ratings and reviews of customers from consumeraffairs.com using beautifulsoup Library. https://www.consumeraffairs.com/online/amazon.html
+<b>1) Data Collection and Labelling</b> 
+  - Webscraped the ratings and reviews of customers from consumeraffairs.com using beautifulsoup Library.
+  - Labelled reviews with 2 classes based on ratings.
+  - https://www.consumeraffairs.com/online/amazon.html
+  - File: 1. Webscraping and labelling.ipynb
 
 <b>2) Data Preprocessing</b> 
-  - Pre-processed the web scraped data by removing unwanted statements using pandas library. 
-  - Labelled reviews with 2 classes based on ratings.
-  - file: Sentimental analysis (webscraping and preprocessing).py
+  - Pre-processed the web scraped data by removing unwanted statements using pandas library.
+  - Removed Special characters (kept only numbers and alphabets)
+  - Lowercased all reviews
+  - Perfomed lemmatization
+  - file: 2. Pre-Processing.ipynb
 
 <b>3) Text Vectorization</b> 
--  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
+  -  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
 
 <b>4) Model training</b> 
-  - Trained three ML algorithms(SVM, Naive Bayes and Logistic regression) on 2 word representation techniques(Bag of words and TF-IDF)
-  - Files: Sentmental Analysis using count vectorizer.ipynb, Sentmental Analysis using TF-IDF.ipynb.
-  - Performed Artificial neural network algorithm on bag of words word representations.
-  - file: ANN.ipynb
+  - Trained 3 Machine Learning algorithms(SVM, Naive Bayes and Logistic regression) on 2 word representation techniques(Bag of words and TF-IDF)
+  - Trained 2 Deep Learning algorithms(LSTM, Bi-Directional LSTM) on word to vec word representation(fasttext)
+  - Files: 3. Model Training (Logistic Regression, Naive Bayes, SVM) with Bag of Words.ipynb, 4. Model Training (Logistic Regression, Naive Bayes, SVM) with TF-    IDF.ipynb, 5. Model Training (LSTM and Bi-LSTM) with Word to Vec.ipynb
   
-  - Trained three DL algorithms(LSTM, GRU and Bi-Directional LSTM) on word to vec word representation(fasttext)
-  - file: LSTM/GRU/Bi-DIRECT.ipynb
   
 <b>5) Model Evaluation</b>
   - Performed comparative analysis
   
-  ![image](https://user-images.githubusercontent.com/55615788/149210462-b0fb2199-9119-44ff-8637-f5dec73e2b5e.png)
+  ![image](https://user-images.githubusercontent.com/55615788/196811712-3db18ac2-287e-4072-be64-4ba2aabfaa04.png)
   
-  - Analysis shows Logistic regression and Bi-directional LSTM outperforms all other algorithms.
+  - Analysis shows Naive Bayes with Ngram TFIDF outperforms all other algorithms in terms of accuracy and F1 Score.
 
 <b>6) Deployment</b>
   - Deployed the trained model for customer review sentiment analysis using flask app. 
