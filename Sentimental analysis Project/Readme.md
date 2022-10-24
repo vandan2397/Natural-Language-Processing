@@ -29,18 +29,22 @@ Understanding a customer is the most vital part for every business, as it helps 
   - Perfomed lemmatization
   - File: 2. Pre-Processing.ipynb
 
-<b>3) Text Vectorization</b> 
+<b>3) Exploratory Data Analysis</b> 
+  -  Performed exploratory data analysis of reviews to understand what are the frequent topics customers talking about.
+  - - File: 3. Exploratory Data Analysis.ipynb
+
+<b>4) Text Vectorization</b> 
   -  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
 
-<b>4) Model training</b> 
+<b>5) Model training</b> 
   - Trained 3 Machine Learning algorithms(SVM, Naive Bayes and Logistic regression) on 2 word representation techniques(Bag of words and TF-IDF)
   - Trained 2 Deep Learning algorithms(LSTM, Bi-Directional LSTM) on word to vec word representation(fasttext)
-  - Files: 3. Model Training (Logistic Regression, Naive Bayes, SVM) with Bag of Words.ipynb, 4. Model Training (Logistic Regression, Naive Bayes, SVM) with TF-    IDF.ipynb, 5. Model Training (LSTM and Bi-LSTM) with Word to Vec.ipynb
+  - Files: 4. Model Training (Logistic Regression, Naive Bayes, SVM) with Bag of Words.ipynb, 5. Model Training (Logistic Regression, Naive Bayes, SVM) with TF-    IDF.ipynb, 6. Model Training (LSTM and Bi-LSTM) with Word to Vec.ipynb
   
-<b>5) Model training</b> 
+<b>6) Model training</b> 
   - Performed Hyperparameter tuning on Naive bayes with N-Gram to improve performance.
   
-<b>6) Model Evaluation</b>
+<b>7) Model Evaluation</b>
   - Performed comparative analysis
   
   ![image](https://user-images.githubusercontent.com/55615788/196811712-3db18ac2-287e-4072-be64-4ba2aabfaa04.png)
