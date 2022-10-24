@@ -31,7 +31,7 @@ Understanding a customer is the most vital part for every business, as it helps 
 
 <b>3) Exploratory Data Analysis</b> 
   -  Performed exploratory data analysis of reviews to understand what are the frequent topics customers talking about.
-  - - File: 3. Exploratory Data Analysis.ipynb
+  -  File: 3. Exploratory Data Analysis.ipynb
 
 <b>4) Text Vectorization</b> 
   -  Vectorized the text using Bag of words, TF-IDF and wordtovec(fasttext) techniques for machine learning models.
