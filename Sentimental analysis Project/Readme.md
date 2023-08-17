@@ -46,10 +46,11 @@ Understanding a customer is the most vital part for every business, as it helps 
   
 <b>7) Model Evaluation</b>
   - Performed comparative analysis
+  ![image](https://github.com/vandan2397/Natural-Language-Processing/assets/55615788/a2c002d1-7a7a-4e1d-a6b0-1a9590f55487)
+
   
-  ![image](https://user-images.githubusercontent.com/55615788/196811712-3db18ac2-287e-4072-be64-4ba2aabfaa04.png)
   
-  - Analysis shows Naive Bayes with Ngram TFIDF outperforms all other algorithms in terms of accuracy and F1 Score.
+  - Analysis shows BI-LSTM with wordtovec outperforms all other algorithms in terms of accuracy and F1 Score.
 
 <b>7) Deployment</b>
   - Deployed the trained model for customer review sentiment analysis using flask app. 
